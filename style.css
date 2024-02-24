@@ -79,10 +79,6 @@ h1{
     min-width: 400px;
   }
 
-  .d-grid{
-    background-color: green;
-  }
-  
   /*@keyframes shake {
     10%,
     90% {

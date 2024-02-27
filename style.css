@@ -1,0 +1,168 @@
+body {
+    font-family: Georgia,serif !important;
+    width: 100%;
+  }
+.logo{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+}
+
+.icon-container{
+    background-color: white !important;
+    
+}
+
+
+.w-100{
+    height:100vh !important;
+}
+
+h1{
+    color:black !important;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#carousel-container{
+    width: 60%;
+}
+.card-text{
+    padding-top: 1rem;
+    color:black !important;
+    font-weight: bold;
+    font-size: 1.5rem !important;
+}
+.card-body{
+    display:flex;
+    height: 30%;
+    width: 100%;
+    justify-content: center !important;
+    border: 0.1rem solid black !important;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 2rem !important;
+    min-width: 400px;
+}
+
+.first_button{
+    color:black !important;
+    font-weight: bolder;
+    font-size: 1.5rem !important;
+    border: 0.2rem solid black !important;   
+}
+.nav-link{
+    color:black !important;
+    font-weight: bold;
+}
+#home{
+    color:black!important;
+    font-weight: bold;
+    background-color: white; 
+}
+#contact{
+    border: 0.1rem solid black !important;
+}
+  .container-header{
+    min-width: 400px;
+  }
+
+  /*@keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }*/
+#head-container{
+    border-radius: 30px;
+    padding-right: 0 !important;
+    min-width: 400px;
+}
+#container-fooder{
+    
+    border-radius: 30px;
+    min-width: 400px;
+        }
+
+.container-bottom{
+    min-width: 400px;
+}
+
+.gradient-background{
+    background: linear-gradient(300deg, #fcb103, #FFD700, #ebe00c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+    
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+@media only screen and (max-width: 700px) {
+    #carousel-container{
+        width: 1px;
+        height: 1px;
+        padding: 0 !important;
+        margin: 0 !important;
+        
+    }
+    .logo{
+        width: 20rem;
+        height: 20rem;
+    }
+    .carousel-inner {
+        height: 1px;
+        padding: 0 !important;
+        margin: 0 !important;
+        
+      }
+    #head-container{
+        min-width: 400px !important;
+
+      
+      
+    }
+    #beneficts-header{
+    min-width: 400px !important;
+        }
+
+    .card-body{
+        min-width: 400px !important;
+    } 
+    h1{
+        font-size: 2rem !important;
+
+    }
+
+
+
+
+
+
+
+}
